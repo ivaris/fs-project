@@ -1,10 +1,10 @@
-package com.ivar.enterprise.context;
+package com.ivar.enterprise.fs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Created by ONC50886 on 8/16/2016.
+ * Created by ivaris on 8/16/2016.
  */
 @SpringBootApplication
 public class FSApplication {
