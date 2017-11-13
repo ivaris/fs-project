@@ -3,7 +3,7 @@ import { Country } from '../domains/country';
 import { CountryService }  from '../providers/country.service';
 
 @Component({
-  selector: 'tc-app',
+  selector: 'fs-app',
   templateUrl: '../views/addtravel.view.html',
   styleUrls: ['../styles/addtravel.style.css'],
   providers: [CountryService]
