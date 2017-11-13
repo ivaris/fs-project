@@ -4,8 +4,8 @@ import { CountryService }  from '../providers/country.service';
 
 @Component({
   selector: 'tc-app',
-  templateUrl: 'app/views/addtravel.view.html',
-  styleUrls: ['app/styles/addtravel.style.css'],
+  templateUrl: '../views/addtravel.view.html',
+  styleUrls: ['../styles/addtravel.style.css'],
   providers: [CountryService]
 })
 export class AddTravelComponent implements OnInit {
