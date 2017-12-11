@@ -7,5 +7,5 @@ To kick context-service use below mvn command
 context-service>mvn exec:java -Dexec.mainClass=com.ivar.enterprise.context.ContextApplication
 
 To kick npm ui use below command
-fs-web>ng server
+fs-web>ng serve
 

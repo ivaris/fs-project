@@ -7,6 +7,7 @@ import { CountryService }  from './providers/country.service';
 import { JobService }  from './providers/job.service';
 import { AddTravelComponent }  from './components/addtravel.component';
 import { JobListComponent }  from './components/joblist.component';
+import { AppComponent }  from './components/app.component';
 import { RoutingModule }     from './routing.module';
 
 @NgModule({
@@ -18,15 +19,17 @@ import { RoutingModule }     from './routing.module';
   ],
   declarations: [
     AddTravelComponent,
-    JobListComponent
+    JobListComponent,
+    AppComponent
   ],
   providers: [
     CountryService,
     JobService
   ],
   bootstrap: [
-   JobListComponent,
-   AddTravelComponent
+    AddTravelComponent,
+    JobListComponent,
+    AppComponent
   ]
 })
 export class AppModule { }
