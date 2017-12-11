@@ -27,9 +27,7 @@ import { RoutingModule }     from './routing.module';
     JobService
   ],
   bootstrap: [
-    AddTravelComponent,
-    JobListComponent,
-    AppComponent
+    AppComponent,
   ]
 })
 export class AppModule { }

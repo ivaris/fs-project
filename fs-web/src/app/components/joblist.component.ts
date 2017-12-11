@@ -3,7 +3,7 @@ import { Job } from '../domains/job';
 import { JobService }  from '../providers/job.service';
 
 @Component({
-  selector: 'fs-app',
+  selector: 'job-list',
   templateUrl: '../views/joblist.view.html',
   styleUrls: ['../styles/joblist.style.css'],
   providers: [JobService]
