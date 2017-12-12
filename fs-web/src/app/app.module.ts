@@ -4,7 +4,10 @@ import { FormsModule }   from '@angular/forms';
 import { HttpModule }    from '@angular/http'
 
 import { CountryService }  from './providers/country.service';
+import { JobService }  from './providers/job.service';
 import { AddTravelComponent }  from './components/addtravel.component';
+import { JobListComponent }  from './components/joblist.component';
+import { AppComponent }  from './components/app.component';
 import { RoutingModule }     from './routing.module';
 
 @NgModule({
@@ -15,14 +18,16 @@ import { RoutingModule }     from './routing.module';
     RoutingModule
   ],
   declarations: [
-    AddTravelComponent
+    AddTravelComponent,
+    JobListComponent,
+    AppComponent
   ],
   providers: [
-    CountryService
+    CountryService,
+    JobService
   ],
   bootstrap: [
-
-   AddTravelComponent
+    AppComponent,
   ]
 })
 export class AppModule { }

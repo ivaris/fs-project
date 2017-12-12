@@ -8,19 +8,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by ONC50886 on 8/15/2016.
+ * Created by ivaris on 8/15/2016.
  */
 @RestController
+@RequestMapping("context")
 public class ContextControllerImpl implements ContextController {
     @Autowired
     @Qualifier("ContextServiceImpl")
     ContextService contextService;
-    @RequestMapping("/context/{userId}")
+    @RequestMapping("/{userId}")
     public Context getContext(String userId){
         return contextService.getContext(userId);
     }
     
-    @RequestMapping("/context")
+    @RequestMapping("/")
     public String toString(){
 		return "Context Resource";
     	

@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+<div>
+    <table border="1">
+        <tr  *ngFor="let job of jobs">
+            <td>
+                {{job.id}}
+            </td>
+          <td>
+            {{job.name}}
+          </td>
+          <td>
+            {{job.description}}
+          </td>
+        </tr>
+    </table>
+</div>

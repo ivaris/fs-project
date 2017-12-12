@@ -11,7 +11,7 @@ public class ContextServiceImpl implements ContextService {
 
 	public Context getContext(String userId) {
 		// TODO Auto-generated method stub
-		return null;
+		return new Context();
 	}
     
 }
