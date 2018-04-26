@@ -12,6 +12,8 @@
         <module>context-service</module>
         <module>fs-service</module>
         <module>fs-web</module>
+        <module>qa-service</module>
+        <module>qc-service</module>
     </modules>
 
     <build>
